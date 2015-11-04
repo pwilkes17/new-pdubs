@@ -4,4 +4,5 @@ $(document).ready(function(){
 			.toggleClass("rotate");
 		$('.menu-shown').toggleClass("menu-on");
 	});
+	$('.collapse').collapse();
 });
