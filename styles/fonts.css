@@ -1,0 +1,18 @@
+@font-face {
+	font-family: Socialico;
+	src: 	local('Socialico'), 
+			url('../fonts/Socialico/Socialico.otf') format('opentype'),
+			url('../fonts/Socialico/Socialico.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+	
+@font-face {
+	font-family: Font-Awesome;
+	src: 	local('Font-Awesome'), 
+			url('../fonts/font-awesome-4.4.0/fonts/FontAwesome.otf') format('opentype'),
+			url('../fonts/font-awesome-4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+	
