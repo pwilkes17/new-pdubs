@@ -4,5 +4,17 @@ $(document).ready(function(){
 			.toggleClass("rotate");
 		$('.menu-shown').toggleClass("menu-on");
 	});
+	$('.resume-box').on('mouse-over', function(){
+		$(this).toggleClass('inset');
+
+
+
+	});
+
+
 	$('.collapse').collapse();
+	
+
+	
+
 });
