@@ -4,11 +4,21 @@ $(document).ready(function(){
 			.toggleClass("rotate");
 		$('.menu-shown').toggleClass("menu-on");
 	});
-	$('.resume-box').on('mouse-over', function(){
-		$(this).toggleClass('inset');
-
-
-
+	$('.resume-box').on('mouseenter', function(){
+		$(this).addClass('inset');
+		
+	});
+	$('.resume-box').on('mouseleave', function(){
+		$(this).removeClass('inset');
+		
+	});
+	$('.about-div').on('mouseenter', function(){
+		$(this).addClass('inset');
+		
+	});
+	$('.about-div').on('mouseleave', function(){
+		$(this).removeClass('inset');
+		
 	});
 
 
