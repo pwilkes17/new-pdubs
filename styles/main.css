@@ -1,6 +1,6 @@
 body {
 	color: black;
-	font-size: 2rem;
+	font-size: 3rem;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
 background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
@@ -205,7 +205,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 	margin-bottom: 2rem;
 	border: 1px solid black;
 	border-radius: .5rem;
-	padding: 3rem;
+	padding: 2.5rem;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
 background: rgb(254,255,232); /* Old browsers */
 background: -moz-linear-gradient(-45deg,  rgba(254,255,232,1) 0%, rgba(214,219,191,1) 100%); /* FF3.6+ */
@@ -224,7 +224,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', end
 }
 
 .about-div i {
-	padding: 1.5rem;
+	padding: 1rem;
 	border-bottom: 1px solid gray;
 }
 
@@ -342,17 +342,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', end
 }
 
 .submitbar {
-	height: 4rem;
+	height: 8rem;
 	background-color: rgba(82,84,86,1);
 	width: 80%;
 	margin: 1rem auto;
 	border-radius: .5rem;
+	padding: 1rem;
 	overflow: hidden;
 }
 
 .submitButton {
-	width: 8rem;
-	height : 3rem;
+
+	width: 15rem;
+	height : 5rem;
 	margin-top: .5rem;
 	float: right;
 	margin-right: .5rem;
